@@ -55,7 +55,6 @@ const UsersController = {
         fs.writeFileSync(filePath, usersUpdatedJSON)
         return res
         .json({message: "O usuário foi deletado com sucesso"})
-
     }
 }
 
